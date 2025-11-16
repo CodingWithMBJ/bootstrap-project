@@ -14,13 +14,15 @@
     />
   </head>
   <body>
-    <div class="container-fluid mb-3">
+    <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bg-body-tertiary mt-3">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -29,7 +31,7 @@
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -115,8 +117,12 @@
         </table>
       </div>
       <div class="fluid-container mt-3">
-        <img src="/27002.jpg" alt="" class="img-fluid" />
-        <img src="https://placehold.co/200x200" alt="" class="rounded-circle" />
+        <img src="/27002.jpg" alt="placeholder" class="img-fluid" />
+        <img
+          src="https://placehold.co/200x200"
+          alt="placeholder"
+          class="rounded-circle"
+        />
       </div>
       <div class="gap-2 d-md-block mt-3">
         <button class="btn btn-primary" type="button">Button</button>
